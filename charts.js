@@ -184,6 +184,7 @@ function buildCharts(sample) {
       paper_bgcolor: "rgba(0,0,0,0)",
       font: {
         color: "white"
+      }
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
