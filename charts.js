@@ -147,6 +147,8 @@ function buildCharts(sample) {
 
 
     // 3. Create a variable that holds the washing frequency.
+    var metadataArray = metadata.filter(sampleObj => sampleObj.id == sample);
+    var metResult = metadataArray[0];
     var wfreq = parseFloat(metResult.wfreq);
     var frequency = result.wfeq;
     console.log(frequency);
