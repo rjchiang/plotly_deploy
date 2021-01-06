@@ -156,7 +156,6 @@ function buildCharts(sample) {
       {
       type: "indicator",
       mode: "gauge+number",
-      }
       value: wfreq,
       title: {text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
       //marker: {colors: []}
@@ -174,8 +173,9 @@ function buildCharts(sample) {
           {range: [4, 6], color: "gold"},
           {range: [6, 8], color: "mediumaquamarine"},
           {range: [8, 10], color: "teal"}
-    ],
-  
+          ]
+      }
+    }]
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
