@@ -90,7 +90,7 @@ function buildCharts(sample) {
         y: yticks,
         x: sampleValues.slice(0,10).reverse(),
         text: otuLabels.slice(0,10).reverse(),
-        type: "bar"
+        type: "bar",
         orientation: "h"
       }
       
